@@ -9,7 +9,7 @@ import random
 import argparse
 from torch.utils.data import DataLoader
 sys.path.append('%s/../../pytorch_DGCNN' % os.path.dirname(os.path.realpath(__file__)))
-#from main import *
+from main import *
 from util_functions import *
 
 
